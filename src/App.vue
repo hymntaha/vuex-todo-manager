@@ -16,5 +16,15 @@ export default {
 </script>
 
 <style>
-
+  body {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e8f7f0;
+  }
+  .container {
+    max-width: 110px;
+    margin: auto;
+    overflow: auto;
+    padding: 0 2rem;
+  }
 </style>
