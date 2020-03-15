@@ -1,8 +1,21 @@
 import axios from 'axios';
 
-const state = {};
+const state = {
+  todos: [
+    {
+      id:1,
+      title: 'todo 1'
+    },
+    {
+      id:2,
+      title: 'todo 2'
+    }
+  ]
+};
 
-const getters = {};
+const getters = {
+  allTodos: (state) => state.todos
+};
 
 const actions = {};
 
