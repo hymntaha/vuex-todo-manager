@@ -10,7 +10,7 @@ const getters = {
 
 const actions = {
   async fetchTodos({commit}){
-    const response await axios.get('https://jsonplaceholder.typicode.com/todos')
+    const response = await axios.get('https://jsonplaceholder.typicode.com/todos')
   }
 };
 
