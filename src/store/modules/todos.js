@@ -18,6 +18,9 @@ const actions = {
       title, completed: false
     });
     commit('newTodo', response.data);
+  },
+  async deleteTodo(){
+
   }
 
 };
