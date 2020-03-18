@@ -17,7 +17,7 @@ const actions = {
     const response = await axios.post('https://jsonplaceholder.typicode.com/todos',{
       title, completed: false
     });
-    commit('newTodo', response.defineMetadata());
+    commit('newTodo', response.data);
   }
 
 };
