@@ -15,7 +15,7 @@
     export default {
         name:"Todos",
       methods:{
-        ...mapActions(['fetchTodos'])
+        ...mapActions(['fetchTodos','deleteTodo'])
       },
       computed: mapGetters(['allTodos']),
       created(){
