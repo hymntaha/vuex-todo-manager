@@ -17,5 +17,9 @@
     }
 </script>
 <style>
-
+    select{
+        margin-top: 20px;
+        padding: 6px;
+        border: #41b883 1px solid;
+    }
 </style>
