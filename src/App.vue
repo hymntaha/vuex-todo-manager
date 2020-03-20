@@ -2,8 +2,8 @@
   <div id="app">
     <div class="container">
       <AddTodo />
-      <Todos />
       <FilterTodos/>
+      <Todos />
     </div>
   </div>
 </template>
