@@ -29,6 +29,10 @@ const actions = {
     const response = await axios.get(`https://jsonplaceholder.typicode.com/todos?_limit=${limit}`)
     commit('setTodos', response.data);
 
+  },
+  async updateTodo({commit}, updateTodo){
+    const response = await axios.put(`https://jsonplaceholder.typicode.com/todos/${updateTodo}`)
+
   }
 
 };
