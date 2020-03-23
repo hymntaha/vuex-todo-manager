@@ -54,4 +54,21 @@
         color: #fff;
         cursor: pointer;
     }
+    .complete-box{
+        display: inline-block;
+        width: 10px;
+        height:10px;
+        background: #35493e;
+    }
+    .incomplete-box {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: #41b883;
+    }
+    @media(max-width: 500px){
+        .todos{
+            grid-template-columns: 1fr;
+        }
+    }
 </style>
